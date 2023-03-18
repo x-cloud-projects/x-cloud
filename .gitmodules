@@ -1,0 +1,9 @@
+[submodule "x-cloud-docker"]
+	path = x-cloud-docker
+	url = https://git.xfeel-coding.cn/x-cloud/x-cloud-docker.git
+[submodule "x-cloud-modules"]
+	path = x-cloud-modules
+	url = https://git.xfeel-coding.cn/x-cloud/x-cloud-modules/x-cloud-modules.git
+[submodule "x-cloud-server"]
+	path = x-cloud-server
+	url = https://git.xfeel-coding.cn/x-cloud/x-cloud-server/x-cloud-server.git

@@ -13,6 +13,9 @@
         <module>x-cloud-build</module>
         <module>x-cloud-parent</module>
         <module>x-cloud-common</module>
+
+		<module>x-cloud-server</module>
+		<module>x-cloud-modules</module>
     </modules>
 
 </project>
