@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-docker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-modules" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-modules/device-management-platform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-modules/flow-management-platform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-modules/job-management-platform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-modules/message-management-platform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-modules/remind-management-platform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-server/x-cloud-admin-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-server/x-cloud-auth-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-server/x-cloud-config-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-server/x-cloud-eureka-server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-server/x-cloud-zipkin-server" vcs="Git" />
+  </component>
+</project>

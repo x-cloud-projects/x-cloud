@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/x-cloud-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/flow-management-platform/flow-admin-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/flow-management-platform/flow-admin-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/flow-management-platform/flow-service-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/flow-management-platform/flow-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/flow-management-platform/flow-user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/job-management-platform/job-admin-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/job-management-platform/job-admin-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/job-management-platform/job-service-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/job-management-platform/job-user-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/job-management-platform/job-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/job-management-platform/job-user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/message-management-platform/message-admin-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/message-management-platform/message-admin-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/message-management-platform/message-service-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/message-management-platform/message-user-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/message-management-platform/message-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/message-management-platform/message-user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/remind-management-platform/remind-admin-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/remind-management-platform/remind-admin-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/remind-management-platform/remind-service-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/remind-management-platform/remind-user-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/remind-management-platform/remind-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/remind-management-platform/remind-user-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-server/x-cloud-admin-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-server/x-cloud-admin-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-server/x-cloud-auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-server/x-cloud-auth-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-server/x-cloud-config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-server/x-cloud-config-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-server/x-cloud-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/x-cloud-server/x-cloud-eureka-server/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
