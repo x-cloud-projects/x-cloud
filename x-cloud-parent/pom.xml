@@ -7,7 +7,7 @@
         <groupId>com.xfeel.cloud</groupId>
         <artifactId>x-cloud-build</artifactId>
         <version>1.0.0-SNAPSHOT</version>
-        <relativePath>../x-cloud-build</relativePath>
+        <relativePath>../x-cloud-build/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -56,6 +56,22 @@
 
     <dependencyManagement>
         <dependencies>
+			<dependency>
+				<groupId>com.xfeel.boot</groupId>
+				<artifactId>x-spring-boot-dependencies</artifactId>
+				<version>1.0.0-SNAPSHOT</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>com.xfeel.support</groupId>
+				<artifactId>x-sdk-support-dependencies</artifactId>
+				<version>1.0.0-SNAPSHOT</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
