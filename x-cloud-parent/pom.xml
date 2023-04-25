@@ -65,7 +65,7 @@
 			</dependency>
 
 			<dependency>
-				<groupId>com.xfeel.support</groupId>
+				<groupId>com.xfeel.sdk</groupId>
 				<artifactId>x-sdk-support-dependencies</artifactId>
 				<version>1.0.0-SNAPSHOT</version>
 				<type>pom</type>
