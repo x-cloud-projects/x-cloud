@@ -3,7 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/x-cloud-docker" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/x-cloud-modules" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/x-cloud-modules/device-management-platform" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/x-cloud-modules/flow-management-platform" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/x-cloud-modules/job-management-platform" vcs="Git" />
