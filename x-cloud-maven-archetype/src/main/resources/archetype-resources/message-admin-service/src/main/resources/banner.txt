@@ -1,0 +1,11 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+ __  __  __  __  ___
+|  ${symbol_escape}/  ||  ${symbol_escape}/  || _ ${symbol_escape}
+| |${symbol_escape}/| || |${symbol_escape}/| ||  _/
+|_|  |_||_|  |_||_|
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Message Management Platform
+V${version}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -3,11 +3,19 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/x-cloud-docker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-modules" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-modules/app-management-platform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-modules/assets-management-platform" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/x-cloud-modules/device-management-platform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-modules/distribute-management-platform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-modules/file-management-platform" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/x-cloud-modules/flow-management-platform" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/x-cloud-modules/job-management-platform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-modules/log-management-platform" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/x-cloud-modules/message-management-platform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-modules/news-management-platform" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/x-cloud-modules/remind-management-platform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/x-cloud-modules/user-management-platform" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/x-cloud-server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/x-cloud-server/x-cloud-admin-server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/x-cloud-server/x-cloud-auth-server" vcs="Git" />

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/distribute-management-platform/scripts/db/mysql/V1.0__Init.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/x-cloud-modules/job-management-platform/db/mysql/init-db.sql" dialect="MariaDB" />
+    <file url="PROJECT" dialect="MySQL" />
+  </component>
+</project>

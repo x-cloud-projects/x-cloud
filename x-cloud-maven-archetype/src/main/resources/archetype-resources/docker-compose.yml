@@ -1,0 +1,34 @@
+version: '3.8'
+services:
+    admin-service:
+        image: x-cloud/message-admin-service:1.0.0
+        networks:
+          - master
+        ports:
+            - "8221:8080"
+            - "18221:5005"
+        restart: unless-stopped
+        volumes:
+          - "./config/application-admin.yml:/app/application.yml:ro"
+          - "./config/default.yml:/app/default.yml:ro"
+        environment:
+          - APP_OPTS=-Dserver.port=8080 -Dspring.config.location=/app/application.yml,/app/default.yml -Dlogging.config=/app/logback-spring.xml
+
+    user-service:
+        image: x-cloud/message-user-service:1.0.0
+        networks:
+          - master
+        ports:
+            - "8222:8080"
+            - "18222:5005"
+        restart: unless-stopped
+        volumes:
+          - "./config/application-user.yml:/app/application.yml:ro"
+          - "./config/default.yml:/app/default.yml:ro"
+        environment:
+          - APP_OPTS=-Dserver.port=8080 -Dspring.config.location=/app/application.yml,/app/default.yml -Dlogging.config=/app/logback-spring.xml
+
+networks:
+  master:
+    name: master
+    external: true

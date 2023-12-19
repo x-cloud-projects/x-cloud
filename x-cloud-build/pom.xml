@@ -18,4 +18,15 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
+	<distributionManagement>
+		<repository>
+			<id>xc-releases</id>
+			<url>https://nexus.xfeel-coding.cn/repository/xc-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>xc-snapshots</id>
+			<url>https://nexus.xfeel-coding.cn/repository/xc-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 </project>

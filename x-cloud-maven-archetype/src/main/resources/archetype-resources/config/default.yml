@@ -1,0 +1,15 @@
+mysql:
+  host: mysql
+  port: 3306
+  name: message
+  username: xcloud
+  password: Xcloud_ready_2_go
+
+mongo:
+  host: mongo
+  port: 27017
+  username: xcloud
+  password: Xcloud_ready_2_go
+
+kafka:
+  brokers: localhost:9092

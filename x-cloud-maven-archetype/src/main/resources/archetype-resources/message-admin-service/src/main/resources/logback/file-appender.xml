@@ -1,0 +1,72 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<included>
+    <!-- file-appender properties -->
+    <springProperty name="LOG_FILE_PATH" source="logging.file.path"
+                    defaultValue="${symbol_dollar}{user.home}/logs/mmp"/>
+    <springProperty name="FILE_LOG_PATTERN" source="logging.pattern.file"
+                    defaultValue="%d{yyyy-MM-dd HH:mm:ss.SSS} %5p --- [%30.30t] %-40.40logger{39} : %m%n%wExx"/>
+
+    <!--ALL-->
+    <appender name="FILE_ALL" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${symbol_dollar}{LOG_FILE_PATH}/${symbol_dollar}{APPLICATION_NAME}.${symbol_dollar}{SERVER_PORT}.all.log</file>
+        <append>true</append>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${symbol_dollar}{LOG_FILE_PATH}/history/${symbol_dollar}{APPLICATION_NAME}.${symbol_dollar}{SERVER_PORT}.all.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>2GB</maxFileSize>
+            <MaxHistory>7</MaxHistory>
+            <totalSizeCap>7GB</totalSizeCap>
+            <cleanHistoryOnStart>true</cleanHistoryOnStart>
+        </rollingPolicy>
+        <encoder>
+            <Pattern>${symbol_dollar}{FILE_LOG_PATTERN}</Pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!--WARN-->
+    <appender name="FILE_WARN" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>WARN</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <file>${symbol_dollar}{LOG_FILE_PATH}/${symbol_dollar}{APPLICATION_NAME}.${symbol_dollar}{SERVER_PORT}.warn.log</file>
+        <append>true</append>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${symbol_dollar}{LOG_FILE_PATH}/history/${symbol_dollar}{APPLICATION_NAME}.${symbol_dollar}{SERVER_PORT}.warn.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>2GB</maxFileSize>
+            <MaxHistory>7</MaxHistory>
+            <totalSizeCap>7GB</totalSizeCap>
+            <cleanHistoryOnStart>true</cleanHistoryOnStart>
+        </rollingPolicy>
+        <encoder>
+            <Pattern>${symbol_dollar}{FILE_LOG_PATTERN}</Pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!--ERROR-->
+    <appender name="FILE_ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <file>${symbol_dollar}{LOG_FILE_PATH}/${symbol_dollar}{APPLICATION_NAME}.${symbol_dollar}{SERVER_PORT}.error.log</file>
+        <append>true</append>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${symbol_dollar}{LOG_FILE_PATH}/history/${symbol_dollar}{APPLICATION_NAME}.${symbol_dollar}{SERVER_PORT}.error.%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            <maxFileSize>2GB</maxFileSize>
+            <MaxHistory>7</MaxHistory>
+            <totalSizeCap>7GB</totalSizeCap>
+            <cleanHistoryOnStart>true</cleanHistoryOnStart>
+        </rollingPolicy>
+        <encoder>
+            <Pattern>${symbol_dollar}{FILE_LOG_PATTERN}</Pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+</included>

@@ -1,0 +1,43 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="60 seconds" debug="false">
+    <!-- Context listeners -->
+    <contextListener class="com.xfeel.support.logback.SystemPropertyLoggerContextListener"/>
+
+    <!-- The conversion rules are copied from `defaults.xml` in the `spring-boot-xxx.jar` -->
+    <conversionRule conversionWord="clr" converterClass="org.springframework.boot.logging.logback.ColorConverter" />
+    <conversionRule conversionWord="wex" converterClass="org.springframework.boot.logging.logback.WhitespaceThrowableProxyConverter" />
+    <conversionRule conversionWord="wEx" converterClass="org.springframework.boot.logging.logback.ExtendedWhitespaceThrowableProxyConverter" />
+
+    <!-- custom rule -->
+    <conversionRule conversionWord="wExx" converterClass="com.xfeel.support.logback.ExtendedWhitespaceThrowableProxyConverter"/>
+
+    <!-- common properties -->
+    <springProperty name="SERVER_PORT" source="server.port" defaultValue="18013"/>
+    <springProperty name="APPLICATION_NAME" source="spring.application.name" defaultValue="${artifactId}"/>
+
+
+    <!-- console-appender -->
+    <include resource="logback/console-appender.xml"/>
+
+    <!-- file-appender -->
+    <include resource="logback/file-appender.xml"/>
+
+    <!-- logstash-appender: off by default -->
+    <!--<include resource="logback/logstash-appender.xml"/>-->
+
+    <root level="INFO">
+        <!-- console-appender -->
+        <appender-ref ref="CONSOLE"/>
+
+        <!-- file-appender -->
+        <appender-ref ref="FILE_ALL"/>
+        <appender-ref ref="FILE_WARN"/>
+        <appender-ref ref="FILE_ERROR"/>
+
+        <!-- logstash-appender: off by default -->
+        <!--<appender-ref ref="LOGSTASH"/>-->
+    </root>
+</configuration>
